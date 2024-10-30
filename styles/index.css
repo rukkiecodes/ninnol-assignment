@@ -409,4 +409,88 @@ nav .nav_icons button:hover {
 
 .section6 img {
   width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #43C9BE;
+  margin-top: -1em;
+  padding: 10em 10vw;
+}
+footer .side1 {
+  width: 30%;
+}
+footer .side1 p {
+  color: #ffffff;
+}
+footer .side1 p:nth-child(1) {
+  margin-bottom: 1em;
+  font-size: 2rem;
+  font-weight: 800;
+}
+footer .side1 p:nth-child(2) {
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+}
+footer .side1 p:nth-child(3) {
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+}
+footer .side1 div {
+  margin-top: 2em;
+}
+footer .side1 div i {
+  margin-right: 1em;
+  font-size: 2rem;
+}
+footer .side2 {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .side2 .sub p {
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+footer .side2 .sub p:nth-child(1) {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+footer .side3 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .side3 p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+footer .side3 input {
+  width: 70%;
+  border: none;
+  font-size: 1.2rem;
+  padding: 1em;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+footer .side3 button {
+  background-color: #ffffff;
+  padding: 1.5em 4em;
+  border: none;
+  border-radius: 0.5em;
+}
+footer .last {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+footer .last p {
+  color: #ffffff;
 }/*# sourceMappingURL=index.css.map */

@@ -318,3 +318,89 @@ nav {
         width: 100%;
     }
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: color(accent);
+    margin-top: -1em;
+    padding: 10em 10vw;
+    .side1 {
+        width: 30%;
+        p {
+            color: color(light);
+            &:nth-child(1) {
+                margin-bottom: 1em;
+                font-size: 2rem;
+                font-weight: 800;
+            }
+            &:nth-child(2) {
+                margin-bottom: 1em;
+                font-size: 1.2rem;
+            }
+            &:nth-child(3) {
+                margin-bottom: 1em;
+                font-size: 1.2rem;
+            }
+        }
+        div {
+            margin-top: 2em;
+            i {
+                margin-right: 1em;
+                font-size: 2rem;
+            }
+        }
+    }
+    .side2 {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .sub {
+            p {
+                color: color(light);
+                margin-bottom: 1em;
+                &:nth-child(1) {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    .side3 {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        p {
+            font-size: 1.5rem;
+            color: color(light);
+            font-weight: 600;
+            margin-bottom: 1em;
+        }
+        input {
+            width: 70%;
+            border: none;
+            font-size: 1.2rem;
+            padding: 1em;
+            border-radius: .5em;
+            margin-bottom: 1em;
+        }
+        button {
+            background-color: color(light);
+            padding: 1.5em 4em;
+            border: none;
+            border-radius: .5em;
+        }
+    }
+    .last {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        p {
+            color: color(light);
+        }
+    }
+}
