@@ -103,7 +103,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: 0.5s all ease-in-out;
 }
 
 nav {
@@ -134,10 +133,60 @@ nav .nav_icons button {
   height: 50px;
   border-radius: 50%;
   cursor: pointer;
+  transition: 0.5s all ease-in-out;
 }
 nav .nav_icons button i {
   font-size: 1.5rem;
 }
 nav .nav_icons button:hover {
   background: rgba(0, 0, 0, 0.2);
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #43C9BE;
+  padding: 0 10vw;
+}
+.section1 .left {
+  width: 40%;
+}
+.section1 .left .p1 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.section1 .left .p2 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+.section1 .left button {
+  font-size: 1rem;
+}
+.section1 .left button:nth-child(1) {
+  background-color: #ffffff;
+  border: none;
+  padding: 1.5em 2em;
+  margin-right: 1em;
+  border-radius: 50px;
+}
+.section1 .left button:nth-child(2) {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  padding: 1.5em 2em;
+  border-radius: 50px;
+  color: #ffffff;
+}
+.section1 .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.section1 .right img {
+  height: auto;
 }/*# sourceMappingURL=index.css.map */
